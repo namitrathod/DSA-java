@@ -1,0 +1,82 @@
+Data structure 
+Data structure are different ways of organizing data on computer that can be used effectively.
+
+what is algorithm 
+set of instruction to perform a task &
+set of rules for a computer program to accomplish a task.
+factors effecting algorithm 
+=>correctness 
+=>efficiency 
+
+why are data structure and algorithm important?
+
+>>>>>>>>>>>>>>>>>>types of data structure in python
+>primitive (integer, float, string, boolean)
+>Non primitive (linear and non-linear)
+
+Linear (list, tuple, array, linked list, stack, queue)
+non Linear (set, dictonary, tree, graph)
+
+>>>>>>>>>>>>>>>>>>types of algorithms
+#sorting
+#searching
+#graph
+#dynamic programming
+#divide and conquer
+#recursive
+
+what is big O ?
+ big o is a language and metric we use to describe the efficiency of algorithm.
+
+What Is Time Complexity?
+   Time complexity is defined in terms of how many times it takes to run a given algorithm,
+   based on the length of the input. Time complexity is not a measurement of how much time
+   it takes to execute a particular algorithm because such factors as programming language,
+   operating system, and processing power are also considered.
+
+  Time complexity is a type of computational complexity that describes the time required to
+  execute an algorithm. The time complexity of an algorithm is the amount of time it takes
+  for each statement to complete. As a result, it is highly dependent on the size of the 
+  processed data. It also aids in defining an algorithm's effectiveness and evaluating its
+  performance.
+* number of operations are measured not time.
+
+What Is Space Complexity?
+
+When an algorithm is run on a computer, it necessitates a certain amount of memory space.
+The amount of memory used by a program to execute it is represented by its space complexity.
+Because a program requires memory to store input data and temporal values while running,
+the space complexity is auxiliary and input space. 
+
+big o notation (complexity)
+best case (omega)
+average case (heta )
+worst case (bigO)
+
+
+* Constant: O(1)
+* Linear time: O(n)
+* Logarithmic time: O(n log n)
+* Quadratic time: O(n^2)
+* Exponential time: O(2^n)
+* Factorial time: O(n!)
+
+
+
+
+
+
+* O(1) - Excellent/Best
+* O(log n) - Good
+* O(n) - Fair
+* O(n log n) - Bad
+* O(n^2), O(2^n) and O(n!) - Horrible/Worst
+
+Constant Time: O(1)
+
+When your algorithm is not dependent on the input size n, it is said to have a constant time complexity with order O(1). This means that the run time will always be the same regardless of the input size.
+
+Linear Time: O(n)
+You get linear time complexity when the running time of an algorithm increases linearly with the size of the input. This means that when a function has an iteration that iterates over an input size of n, it is said to have a time complexity of order O(n).
+
+

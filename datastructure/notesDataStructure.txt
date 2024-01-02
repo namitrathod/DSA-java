@@ -1,0 +1,51 @@
+Types of programming language
+        =>Procedural
+                -specifies a series of well structure steps and procedures to compose a program.
+                -contain a systematic order of statements, functions and commands to end the task.
+        =>Functional
+                -writing a program only in pure function (ie never modify variables), but only create new one as an output.
+                -used in situation where we have to perform lots of different operations on the set of data, like ml
+                - first class functions
+        =>Object oriented
+                -revolves around objects
+                -code + data = object
+                -develop to make it easier to debug, develop, reuse, and maintain software.
+static and dynamic language
+      Static
+        -perform type checking at compile time.
+        -error will show at compile time
+        -declare datatypebefore You use it.
+        - more control
+      dynamic
+        -perform type checking at runtime.
+        -error might not show till program is run.
+        -no need to declare datatype of variables.
+        -Saves time in writing code but might give error at runtime.
+
+Garbage Collection
+Garbage collection (GC) is a memory recovery feature built into programming languages such as C# and Java.
+ A GC-enabled programming language includes one or more garbage collectors (GC engines) that automatically 
+ free up memory space that has been allocated to objects no longer needed by the program. The reclaimed memory 
+ space can then be used for future object allocations within that program.
+
+Garbage collection ensures that a program does not exceed its memory quota or reach a point that it can no longer
+function. It also frees up developers from having to manually manage a program's memory, which, in turn, reduces
+the potential for memory-related bugs.
+
+In older programming languages, such as C and C++, the developer must manually delete objects and free up memory.
+Relying on manual processes made it easy to introduce bugs into the code, some of which can have serious consequences.
+
+Sudo Code 
+for prime or not 
+            start
+            input number
+            c=2
+            while c*c<=number
+                if number%c==0
+                    output not prime
+                    exit
+                c = c+1
+            end while
+            output prime
+            exit
+
