@@ -8,7 +8,8 @@ public class L24_2Darray_input {
         // arr.lenght give number of rows
         
         for(int row=0; row <arr.length; row++){
-            for(int col=0; col< arr[row].length; col++){
+            for(int col=0; col< arr[row].length; col++) //arr[row].length gives no. of element in the ith row of array arr.
+            { 
                 arr[row][col]= in.nextInt();
             }
         }

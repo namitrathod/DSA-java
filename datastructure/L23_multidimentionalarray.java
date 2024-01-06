@@ -11,7 +11,7 @@ public class L23_multidimentionalarray {
         int [][] arr = {
             {1,3,5},
             {2,4,6},
-            {9,8,7}, //arr2D[2] = {2,4,6}
+            {9,8,7},                    //arr2D[2] = {2,4,6}
         };
     }
 }
