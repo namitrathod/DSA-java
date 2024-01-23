@@ -1,4 +1,4 @@
-Data structure 
+Data structure  
 Data structure are different ways of organizing data on computer that can be used effectively.
 
 what is algorithm 
@@ -7,6 +7,8 @@ set of rules for a computer program to accomplish a task.
 factors effecting algorithm 
 =>correctness 
 =>efficiency 
+
+
 
 why are data structure and algorithm important?
 
