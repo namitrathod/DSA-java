@@ -12,6 +12,7 @@ public class L44_cyclicSort {
         while (i<arr.length) {
             if(i == arr[i]-1){
                 i++;
+                // I used break here which resulted in breaking the while condition
             }
             else{
                 swap(arr,i,arr[i]-1);
