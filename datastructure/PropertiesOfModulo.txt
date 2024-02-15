@@ -1,0 +1,30 @@
+properties of Modulo (%)
+(a+b)%m= ((a%m)+(b%m))%m
+(a-b)%m= ((a%m)-(b%m))%m
+(a*b)%m= ((a%m)*(b%m))%m
+(a/b)%m= ((a%m)*(b(power-1)%m))%m               ---------    (b(power-1)%m) =Multiplicative modulo inverse
+(a%m)%m= a%m;
+m%m = 0
+
+
+Fermet LIttle theoram 
+p=prime number
+a not divisor of b
+ab(power(P-1)%P) = a%P;
+
+
+>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<Die Hard Problems >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+3 litre jug and 5 liter jug to get 4 liter of water.
+3x+5y=4
+
+Now, find Hcf of 3 and 5, take it common and see weather it is divisible by it or not.
+ if not then you can not measure 4 liter of water with it.
+
+ <<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>Euclid Algorithm <<<<<<<<<<<>>>>>>>>>>>>>>>>>>
+
+.........////>>>>>> gcd(a,b)= gcd(rem(b,a),a);
+
+
+HCF * LCM = a * b;
+
