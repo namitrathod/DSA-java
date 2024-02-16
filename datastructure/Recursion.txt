@@ -1,0 +1,140 @@
+In Java, Recursion is a process in which a function calls itself directly or indirectly is called recursion and
+ the corresponding function is called a recursive function. Using a recursive algorithm, certain problems can be
+  solved quite easily. A few Java recursion examples are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree 
+  Traversals, DFS of Graph, etc.
+
+Base Condition in Recursion
+In the recursive program, the solution to the base case is provided and the solution to the bigger problem is
+ expressed in terms of smaller problems.
+
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
+In the above example, the base case for n < = 1 is defined and the larger value of a number can be solved by
+ converting it to a smaller one till the base case is reached. 
+
+Working of Recursion
+The idea is to represent a problem in terms of one or more smaller sub-problems and add base conditions that stop 
+the recursion. For example, we compute factorial n if we know the factorial of (n-1). The base case for factorial
+ would be n = 0. We return 1 when n = 0.
+
+...............>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+Stack Overflow error
+If the base case is not reached or not defined, then the stack overflow problem may arise. Let us take an example
+ to understand this.
+
+int fact(int n)
+{
+    // wrong base case (it may cause
+    // stack overflow).
+    if (n == 100) 
+        return 1;
+    else
+        return n*fact(n-1);
+}
+If fact(10) is called, it will call fact(9), fact(8), fact(7) and so on but the number will never reach 100. So,
+ the base case is not reached. If the memory is exhausted by these functions on the stack, it will cause a stack
+  overflow error.
+
+How is memory allocated to different function calls in recursion?>>>>>>>>>>>>>>>>>>>>>>>>
+
+When any function is called from main(), the memory is allocated to it on the stack. A recursive function calls itself,
+ the memory for the called function is allocated on top of memory allocated to the calling function and a different copy
+  of local variables is created for each function call. When the base case is reached, the function returns its value to
+   the function by whom it is called and memory is de-allocated and the process continues. 
+
+
+
+
+   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   Advantages of Recursive Programming
+The advantages of recursive programs are as follows:
+
+Recursion provides a clean and simple way to write code.
+Some problems are inherently recursive like tree traversals, Tower of Hanoi, etc. For such problems,
+ it is preferred to write recursive code.
+Disadvantages of Recursive Programming
+The disadvantages of recursive programs is as follows:
+
+The recursive program has greater space requirements than the iterative program as all functions
+ will remain in the stack until the base case is reached.
+It also has greater time requirements because of function calls and returns overhead.
+Note: Both recursive and iterative programs have the same problem-solving powers, i.e.,
+ every recursive program can be written iteratively and vice versa is also true.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  What is the difference between direct and indirect recursion?
+Ans:
+
+A function fun is called direct recursive if it calls the same function fun. A function fun is called indirect recursive if it calls another function say fun_new and fun_new calls fun directly or indirectly. The difference between direct and indirect recursion has been illustrated in Table 1.
+
+(i) . Direct recursion:
+
+void directRecFun()
+{
+    // Some code....
+    directRecFun();
+    // Some code...
+}
+(ii) . Indirect recursion:
+
+void indirectRecFun1()
+{
+    // Some code...
+    indirectRecFun2();
+    // Some code...
+}
+
+void indirectRecFun2()
+{
+    // Some code...
+    indirectRecFun1();
+    // Some code...
+}
+
+
+Q3. What is the difference between tailed and non-tailed recursion?
+Ans:
+
+A recursive function is a tail recursive when a recursive call is the last thing executed
+ by the function. Please refer tail recursion article for details. 
+
+
+
+
+
+
+
+ <<<<<>>>>>>>>><<<<<<<<<<<<<<>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>>>>>............///////////////:::::::'"""'''''''''''
+To find weather to solve the problem with recursion or not?
+ ***find weather the problem can be broken down into smaller problems****
+ or you can say we have to find out the recurence relation.
+
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ how to approach the recursion problems?
+
+ *Identify if you can break down the problem into smaller problems.
+ *Write the recursion relation.
+ *Draw the recursion tree.
+ *About the tree
+    .See the flow of the function, how they are getting executed.
+    .Identify the flow in right and left tree calls.
+    .Draw the tree and pointer again with pen and paper
+    .Use the debugger to see the flow.
+*See how the values & what types of values are returned at each step.See where the function call will come out.
+ In the end you will come out of the main function.
+
+ Variable in the recursion Questions?
+ Arguments
+ Return Type 
+ Body of thr function.
+ 
