@@ -14,7 +14,7 @@ public class L66_linearSearchWithArraylistinbodyofFunction {
             ans.add(index);
         }
         ArrayList<Integer> ansfrombelowcalls = linear(arr, target, index+1);
-        ans.addAll(ansfrombelowcalls);                                       // we have to use add ALL here
+        ans.addAll(ansfrombelowcalls);                                     // we have to use add ALL here
         return ans;
     }
 }
