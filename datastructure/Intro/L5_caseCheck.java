@@ -1,5 +1,5 @@
+
 package Intro;
-// package datastructure;
 import java.util.Scanner;
 
 public class L5_caseCheck {
