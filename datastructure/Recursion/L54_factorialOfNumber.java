@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L54_factorialOfNumber {
     public static void main(String[] args) {
         int n=5;

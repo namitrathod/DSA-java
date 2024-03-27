@@ -1,4 +1,4 @@
-package Recursion;
+
 public class L51_recursionFibo {
     public static void main(String[] args) {
         System.out.println(fibo(6));

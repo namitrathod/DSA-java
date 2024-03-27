@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L61_countNoOfZero {
     public static void main(String[] args) {
         int n =1010340;

@@ -1,9 +1,5 @@
 
 
-import java.sql.Struct;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class L87_Oop1 {
 
     public static void main(String[] args) {

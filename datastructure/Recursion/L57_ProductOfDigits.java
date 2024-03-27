@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L57_ProductOfDigits {
     public static void main(String[] args) {
         int n = 505;

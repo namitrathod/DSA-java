@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L56_sumOfDigit {
     public static void main(String[] args) {
         int n = 1245;

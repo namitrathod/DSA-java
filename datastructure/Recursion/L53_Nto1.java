@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L53_Nto1 {
     public static void main(String[] args) {
         // fun(5);

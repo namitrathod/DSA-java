@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L55_sumOfNumber {
     public static void main(String[] args) {
         int n=5;

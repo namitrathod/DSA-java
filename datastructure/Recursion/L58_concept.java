@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L58_concept {
     public static void main(String[] args) {
         fun(5);

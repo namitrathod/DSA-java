@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 public class L68_patternRecursion {
     public static void main(String[] args) {
         triangle(4, 0);
